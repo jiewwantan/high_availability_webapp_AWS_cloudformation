@@ -25,7 +25,7 @@ and be sure the IAM user is setup with the administrator permission to perform n
 For more information on setting up IAM user for CloudFormation, see: <br />
 https://medium.com/geekculture/step-by-step-guide-on-setting-up-cloudformation-iam-role-for-github-actions-cb227234a58b
 
-## Project files
+## Required Project Files
 * infra_devops.yml : Udagram CloudFormation script for deploymeent
 * infra_devops.json: Udagram CloudFormation script for parameter
 * create-stack.sh : Cloudformation script to create stack 
@@ -34,6 +34,6 @@ https://medium.com/geekculture/step-by-step-guide-on-setting-up-cloudformation-i
 * /Deployment screenshots/ : Screenshots of the varied process from deployment
 
 
-## To deploy Udagram app
+## Deploy Udagram app
 
 `./create-stack.sh Udagram infra_devops.yml infra_devops.json`
