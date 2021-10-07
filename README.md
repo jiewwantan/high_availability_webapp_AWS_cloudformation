@@ -18,6 +18,7 @@ or <br />
 `aws s3 ls`<br />
 
 To check IAM user credential in aws-cli:<br />
+
 `aws iam list-users`
 
 and be sure the IAM user is setup with the administrator permission to perform necessary deployment steps. <br />
