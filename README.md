@@ -13,11 +13,11 @@ AWS CloudFormation Infrastructure-as-code (IAC) automates the entire creation pr
 2. AWS command line interface (aws-cli) is installed and configured. IAM user is setup to perform the command line deployment. 
 To test aws-cli installation, run the aws command in terminal:
 
-`aws --version`
-or 
-`aws s3 ls`
+`aws --version`<br />
+or <br />
+`aws s3 ls`<br />
 
-To check IAM user credential in aws-cli:
+To check IAM user credential in aws-cli:<br />
 `aws iam list-users`
 
 and be sure the IAM user is setup with the administrator permission to perform necessary deployment steps. 
@@ -25,13 +25,13 @@ For more information on setting up IAM user for CloudFormation, see:
 https://medium.com/geekculture/step-by-step-guide-on-setting-up-cloudformation-iam-role-for-github-actions-cb227234a58b
 
 ## Project files
+* infra_devops.yml : Udagram CloudFormation script for deploymeent
+* infra_devops.json: Udagram CloudFormation script for parameter
+* create-stack.sh : Cloudformation script to create stack 
+* update-stack.sh : Cloudformation script to update stack 
+* destroy-stack.sh : Cloudformation script to delete stack 
+* /Deployment screenshots/ : Screenshots of the varied process from deployment
 
-* /Deployment screenshots : Screenshots of the varied process from deployment.
-* create-stack.sh : Cloudformation script to create stack. 
-* update-stack.sh : Cloudformation script to update stack. 
-* destroy-stack.sh : Cloudformation script to delete stack. 
-* infra_devops.yml : Udagram CloudFormation script for deploymeent.
-* infra_devops.json: Udagram CloudFormation script for parameter.
 
 ## To deploy Udagram app
 
