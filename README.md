@@ -32,6 +32,7 @@ https://medium.com/geekculture/step-by-step-guide-on-setting-up-cloudformation-i
 * update-stack.sh : Cloudformation script to update stack 
 * destroy-stack.sh : Cloudformation script to delete stack 
 * /Deployment screenshots/ : Screenshots of the varied process from deployment
+* The webapp source code is saved as Udacity.zip in a public S3 bucket. The deployment will retrieve and unzip.
 
 
 ## Deploy Udagram app
